@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+curl -X PUT http://localhost:51208/characteristics --header "Content-Type: application/json" --header "Authorization: XXX-XX-XXX" --data "{ \"characteristics\": [{ \"aid\": 1, \"iid\": 2, \"value\": false }]}"
